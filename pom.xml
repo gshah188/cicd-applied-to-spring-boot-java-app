@@ -170,8 +170,8 @@
 			</plugin>
 
 			<!-- Useful for Heroku Deployment -->
-
-			<!-- <plugin>
+<!-- 
+			<plugin>
 				<groupId>com.heroku.sdk</groupId>
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>2.0.11</version>
