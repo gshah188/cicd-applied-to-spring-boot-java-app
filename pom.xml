@@ -25,7 +25,7 @@
 
 		<!-- property useful for spotify's dockerfile-maven-plugin -->
 
-		<!-- Instead of "fanjups", please add your Docker Hub username -->
+
 
 		<docker.image.prefix>gshah188</docker.image.prefix>
 
@@ -52,12 +52,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
+			
 		</dependency>
 	</dependencies>
 
