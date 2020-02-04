@@ -52,7 +52,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			
 		</dependency>
 	</dependencies>
 
@@ -63,7 +62,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<!-- spotify's dockerfile-maven-plugin -->
-
+<!-- 
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
@@ -84,7 +83,7 @@
 					<serverId>index.docker.io</serverId>
 					<registryUrl>https://index.docker.io:443/v1/</registryUrl>
 				</configuration>
-			</plugin>
+			</plugin> -->
 
 			<!-- maven-dependency-plugin useful for creating docker image -->
 
